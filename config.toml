@@ -1,0 +1,2 @@
+[env]
+JEMALLOC_SYS_WITH_MALLOC_CONF = "dirty_decay_ms:3000,muzzy_decay_ms:3000,thp:always,retain:true"
